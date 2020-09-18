@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: aquamarine;
+  font-style: oblique;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+p {
+  color: chartreuse;
+}
+
+h3 {
+  background-color: chocolate;
+  border: chartreuse;
+  border: 1rem solid;
+}
