@@ -106,6 +106,43 @@ body div ul a {
   text-decoration: none;
 }
 
+.picture {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.rowpic {
+  flex: 22%;
+  max-width: 22%;
+  padding: 0.7rem;
+}
+
+.rowpic img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .rowpic {
+    flex: 49%;
+    max-width: 98%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rowpic {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 850px) {
   body {
     font-size: 13px;
