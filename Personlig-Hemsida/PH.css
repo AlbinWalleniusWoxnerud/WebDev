@@ -24,11 +24,7 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
-.navbar-ul a {
-  text-decoration: none;
-}
-
-.navbar-ul a li {
+.navbar-ul-a-li {
   list-style: none;
   color: white;
   text-align: center;
@@ -38,7 +34,8 @@ body {
   padding: 2rem;
 }
 
-a li:hover {
+a li:hover,
+a:hover {
   background-color: rgb(255, 0, 0);
 }
 
@@ -59,19 +56,11 @@ a li:hover {
   text-align: center;
 }
 
-.pfa {
-  flex-wrap: wrap;
-  background-color: rgb(200, 200, 200);
-  padding: 0.5rem;
-  margin: 1rem;
-  border-radius: 1rem;
-}
-
-p {
+.mpp {
   margin: 1rem;
 }
 
-footer {
+.footer {
   font-family: "Dancing Script", cursive;
   flex-flow: row wrap;
   text-align: center;
@@ -82,7 +71,7 @@ footer {
 }
 
 #Main,
-h3 {
+.mph3 {
   font-family: "Grenze Gotisch", cursive;
 }
 
@@ -104,13 +93,13 @@ h3 {
   border-radius: 0.3rem;
 }
 
-.mph a li {
+.mph-a-li {
   font-family: "Roboto", sans-serif;
   color: white;
   padding: 0.5rem;
 }
 
-.mph a {
+.a-tdn {
   text-decoration: none;
 }
 
@@ -126,16 +115,67 @@ h3 {
   background-color: rgb(248, 248, 248);
 }
 
-.rec {
+.pfa {
   display: flex;
+  flex-flow: column wrap;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 1px 1px 1px 0.5px rgba(10, 10, 10, 0.2);
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.rec {
+  display: inline-flex;
   flex-wrap: wrap;
   padding: 0.7rem;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
   background-color: rgb(248, 248, 248);
+}
+
+.rech1 {
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  border-radius: 1rem 1rem 0 0;
+  padding: 0.5rem;
+  font-size: 2vw;
+}
+
+.pfpic {
+  order: 1;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pfap {
+  order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pflist {
+  flex: 48%;
+  max-width: 48%;
+  font-size: 14px;
+}
+
+.pfli {
+}
+
+.pflink {
+  order: 3;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(230, 230, 230);
+  border-radius: 0 0 1rem 1rem;
+  padding: 0.5rem;
+  font-size: 1vw;
 }
 
 .rowpic {
@@ -145,8 +185,8 @@ h3 {
 }
 
 .rowrec {
-  flex: 25%;
-  max-width: 25%;
+  flex: 30%;
+  max-width: 30%;
   padding: 0.7rem;
 }
 
@@ -157,8 +197,43 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .rowpic {
-    flex: 49%;
-    max-width: 98%;
+    flex: 44%;
+    max-width: 44%;
+    padding: 0.7rem;
+  }
+  .rowrec {
+    flex: 44%;
+    max-width: 44%;
+    padding: 0.7rem;
+  }
+  .navbar-ul {
+    font-size: 14px;
+  }
+  .navbar-ul-a-li {
+    padding: 1.5rem;
+  }
+  .mpp {
+    font-size: 14px;
+  }
+  #helper {
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    left: 0px;
+    top: 0rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    font-size: 0rem;
+  }
+  .mph {
+    box-shadow: 0px 0px 0px 0px #333;
+  }
+  .mph-a-li {
+    padding: 0rem;
+  }
+  .mpm {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
@@ -167,138 +242,17 @@ h3 {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-@media screen and (max-width: 850px) {
-  body {
-    font-size: 13px;
+  .mpm {
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
-}
-
-@media screen and (max-width: 760px) {
-  body {
+  .navbar-ul {
     font-size: 12px;
   }
-  main {
-    display: flex;
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    margin-top: 1rem;
-    padding: 0.8rem;
-    background-color: rgb(248, 248, 248);
-    font-family: "Roboto", sans-serif;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  header nav ul a li {
-    list-style: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    padding: 1.5rem;
-  }
-  main {
-    display: flex;
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    margin-top: 1rem;
-    padding: 0.8rem;
-    background-color: rgb(248, 248, 248);
-    font-family: "Roboto", sans-serif;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  body {
-    font-size: 11px;
-  }
-  header nav ul a li {
-    list-style: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
+  .navbar-ul-a-li {
     padding: 1rem;
   }
-  main {
-    display: flex;
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    margin-top: 1rem;
-    padding: 0.8rem;
-    background-color: rgb(248, 248, 248);
-    font-family: "Roboto", sans-serif;
-  }
-
-  #helper {
-    display: flex;
-    flex-flow: column wrap;
-    position: fixed;
-    left: 0px;
-    top: 8rem;
-    margin-left: 0.2rem;
-    margin-top: 0.2rem;
-  }
-}
-@media screen and (max-width: 300px) {
-  body {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 275px) {
-  body {
-    font-size: 9px;
-  }
-  main {
-    display: flex;
-    margin-left: 3.5rem;
-    margin-right: 1rem;
-    margin-top: 2rem;
-    margin-top: 1rem;
-    padding: 0.8rem;
-    background-color: rgb(248, 248, 248);
-    font-family: "Roboto", sans-serif;
-  }
-  header nav ul a li {
-    list-style: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    padding: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 170px) {
-  body {
-    font-size: 8px;
-  }
-  main {
-    display: flex;
-    margin-left: 3.5rem;
-    margin-right: 0rem;
-    margin-top: 2rem;
-    margin-top: 1rem;
-    padding: 0.8rem;
-    background-color: rgb(248, 248, 248);
-    font-family: "Roboto", sans-serif;
-  }
-  header nav ul a li {
-    list-style: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    padding: 0.3rem;
+  p {
+    font-size: 12px;
   }
 }

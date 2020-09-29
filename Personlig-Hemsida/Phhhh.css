@@ -153,3 +153,638 @@ h3 {
   padding: 0 0.25em;
   background: rgb(248, 248, 248);
 }
+
+*/
+Backup för main css
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grenze+Gotisch&family=Roboto:wght@400;900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.navbar-ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
+}
+
+.navbar-ul a {
+  text-decoration: none;
+}
+
+.navbar-ul a li {
+  list-style: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  padding: 2rem;
+}
+
+a li:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.mpm {
+  display: flex;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 2rem;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background-color: rgb(248, 248, 248);
+  font-family: "Roboto", sans-serif;
+}
+
+.mpa {
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+}
+
+p {
+  margin: 1rem;
+}
+
+footer {
+  font-family: "Dancing Script", cursive;
+  flex-flow: row wrap;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #333;
+}
+
+#Main,
+h3 {
+  font-family: "Grenze Gotisch", cursive;
+}
+
+#helper {
+  display: flex;
+  flex-flow: column wrap;
+  position: fixed;
+  left: 0px;
+  top: 12rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.mph {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 1px 1px 1px 0.5px rgba(10, 10, 10, 0.2);
+  border-radius: 0.3rem;
+}
+
+.mph a li {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 0.5rem;
+}
+
+.mph a {
+  text-decoration: none;
+}
+
+.picture {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.pfa {
+  /* flex-wrap: wrap; */
+  background-color: rgb(200, 200, 200);
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.rec {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.rowpic {
+  flex: 22%;
+  max-width: 22%;
+  padding: 0.7rem;
+}
+
+.rowrec {
+  flex: 20%;
+  max-width: 20%;
+  padding: 0.7rem;
+}
+
+.rowpic img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .rowpic {
+    flex: 49%;
+    max-width: 98%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rowpic {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    font-size: 12px;
+  }
+  main {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 1.5rem;
+  }
+  main {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  body {
+    font-size: 11px;
+  }
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 1rem;
+  }
+  main {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+
+  #helper {
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    left: 0px;
+    top: 8rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  body {
+    font-size: 9px;
+  }
+  main {
+    display: flex;
+    margin-left: 3.5rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 170px) {
+  body {
+    font-size: 8px;
+  }
+  main {
+    display: flex;
+    margin-left: 3.5rem;
+    margin-right: 0rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 0.3rem;
+  }
+}
+
+/*
+Backup css main 2
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grenze+Gotisch&family=Roboto:wght@400;900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.navbar-ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
+}
+
+.navbar-ul a {
+  text-decoration: none;
+}
+
+.navbar-ul a li {
+  list-style: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  padding: 2rem;
+}
+
+a li:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.mpm {
+  display: flex;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 2rem;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background-color: rgb(248, 248, 248);
+  font-family: "Roboto", sans-serif;
+}
+
+.mpa {
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+}
+
+p {
+  margin: 1rem;
+}
+
+footer {
+  font-family: "Dancing Script", cursive;
+  flex-flow: row wrap;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #333;
+}
+
+#Main,
+h3 {
+  font-family: "Grenze Gotisch", cursive;
+}
+
+#helper {
+  display: flex;
+  flex-flow: column wrap;
+  position: fixed;
+  left: 0px;
+  top: 12rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.mph {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 1px 1px 1px 0.5px rgba(10, 10, 10, 0.2);
+  border-radius: 0.3rem;
+}
+
+.mph a li {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 0.5rem;
+}
+
+.mph a {
+  text-decoration: none;
+}
+
+.picture {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.pfa {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: rgb(200, 200, 200);
+  margin: 1rem;
+  border-radius: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.rec {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.rech1 {
+  text-align: center;
+  background-color: rgb(160, 160, 160);
+  border-radius: 1rem 1rem 0 0;
+  padding: 0.5rem;
+  font-size: 2vw;
+}
+
+.pfpic {
+  order: 1;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pfap {
+  order: 2;
+  flex-wrap: wrap;
+}
+
+.rowpic {
+  flex: 22%;
+  max-width: 22%;
+  padding: 0.7rem;
+}
+
+.rowrec {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0.7rem;
+}
+
+.rowpic img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .rowpic {
+    flex: 44%;
+    max-width: 44%;
+    padding: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rowpic {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    font-size: 12px;
+  }
+  main {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 1.5rem;
+  }
+  main {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  body {
+    font-size: 11px;
+  }
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 1rem;
+  }
+  main {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+
+  #helper {
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    left: 0px;
+    top: 8rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  body {
+    font-size: 9px;
+  }
+  main {
+    display: flex;
+    margin-left: 3.5rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 170px) {
+  body {
+    font-size: 8px;
+  }
+  main {
+    display: flex;
+    margin-left: 3.5rem;
+    margin-right: 0rem;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(248, 248, 248);
+    font-family: "Roboto", sans-serif;
+  }
+  header nav ul a li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 0.3rem;
+  }
+}
