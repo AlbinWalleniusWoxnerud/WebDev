@@ -195,6 +195,14 @@ a:hover {
   width: 100%;
 }
 
+.ops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
 @media screen and (max-width: 800px) {
   .rowpic {
     flex: 44%;
@@ -237,14 +245,6 @@ a:hover {
   }
 }
 
-.ops {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15%;
-  margin-bottom: 15%;
-}
-
 @media screen and (max-width: 600px) {
   .rowpic {
     flex: 100%;
@@ -262,5 +262,8 @@ a:hover {
   }
   p {
     font-size: 12px;
+  }
+  .ops {
+    font-size: 14px;
   }
 }
